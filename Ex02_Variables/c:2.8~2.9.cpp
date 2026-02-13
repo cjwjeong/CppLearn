@@ -1,4 +1,5 @@
 #include <iostream>
+#include <MY_CONSTANT.h>
 
 int main(){
     using namespace std;
@@ -38,6 +39,8 @@ int main(){
     const int price_per_item = 10; //price_per_item = 11; 변수가 변할 수 없음
     
     void printNumber(const int i); // 이런 경우가 많음
+
+    cout << constants::pi << endl;
     return 0;
 
 }
